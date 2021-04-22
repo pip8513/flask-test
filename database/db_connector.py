@@ -6,6 +6,11 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
 # Set the variables in our application with those environment variables
+# host = "localhost"
+# user = "root"
+# passwd = "musicman"
+# db = "bsg"
+
 host = os.environ.get("340DBHOST")
 user = os.environ.get("340DBUSER")
 passwd = os.environ.get("340DBPW")

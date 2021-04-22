@@ -1,3 +1,5 @@
 # ignore virtual environment setup
 /venv
 
+# ignore environmental variables
+.env
